@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="#FF6200EE">
+	
+	<TextView
+	   android:id="@+id/widgetLabel"
+	   android:text="Loading..."
+	   android:textColor="#DDDDDD"
+	   android:textSize="11sp"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" />
+	
+	<TextView
+        android:id="@+id/widgetTitle"
+		android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+		android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="4dp"/>
+	
+	<TextView
+	   android:id="@+id/widgetText"
+	   android:text=""
+	   android:textColor="#AAAAAA"
+	   android:textSize="10sp"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content" />
+
+	<TextView
+        android:id="@+id/widgetTime"
+        android:text=""
+        android:textColor="#AAAAAA"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_marginTop="2dp"/>
+</LinearLayout>

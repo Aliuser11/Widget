@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../WIdgetBridge/WIdgetBridge.csproj" />
+  <Project Path="Widget.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

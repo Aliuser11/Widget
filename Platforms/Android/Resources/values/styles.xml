@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="MainTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+		<item name="colorPrimary">#FF6200EE</item>
+		<item name="colorOnPrimary">#FFFFFF</item>
+		<item name="colorSecondary">#FF03DAC5</item>
+		<item name="colorOnSecondary">#FF000000</item>
+	</style>
+
+	<style name="WidgetTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+		<item name="colorPrimary">#FF6200EE</item>
+	</style>
+
+</resources>

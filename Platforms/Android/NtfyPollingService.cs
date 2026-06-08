@@ -81,7 +81,7 @@ namespace Widget.Platforms.Android
 
                 try
                 {
-                    var url = $"{NtfyBaseUrl}/{channel.Topic}/json?poll=1&since=6h";
+                    var url = $"{NtfyBaseUrl}/{channel.Topic}/json?poll=1&since=6h"; //debug
                     var response = await http.GetStringAsync(url, ct);
                     var lines = response.Split('\n', StringSplitOptions.RemoveEmptyEntries);
 
